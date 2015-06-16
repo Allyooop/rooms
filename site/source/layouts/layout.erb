@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Woodlands Room at Jessop Wing" %></title>
+    <%= partial "/partials/seo" %>
     
     <%= stylesheet_link_tag "main" %>
     <!--[if lt IE 9]>
