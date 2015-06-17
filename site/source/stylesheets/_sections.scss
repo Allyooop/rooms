@@ -1,7 +1,5 @@
 .site-banner {
   
-  margin-bottom: 25px;
-  
 }
 
 #row-offer {
@@ -46,5 +44,19 @@
 .well {
   
   border: none;
+  margin-bottom: 15px;
+  
+}
+
+.branded-well {
+  
+    background-color: $brand-info;
+    color: white;
+  
+}
+
+#image-blocks {
+  
+  margin-bottom: 15px;
   
 }
